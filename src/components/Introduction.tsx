@@ -1,17 +1,26 @@
+import topPic from '../img/pic.jpg'
+
 const Introduction = () => {
 return (
     <div id="introduction">
-        <p>
-        <h1>Your Body Is Your Temple</h1>
-        <br></br>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-        sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-        At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-        </p>
-        <img id="examplePicture" src="/img/man-g54d843fa1_1920.jpg"></img>
+    
+    <img src={topPic}/>
+    
+    <h1>Are You Ready?</h1>
+ 
+    <div id="motivation-lines">  
+    <p> Impress Yourself.</p>
+    <p>  Keep Focused.</p> 
+    <p> Climb To The Top.</p> 
+    <p> Feel The Energy. </p>
+    <p>Reach Your Goal.</p> 
+      
+    </div> 
+
+    <p id="continueLine"> Start your training today</p>    
+         
+       
+        
     </div>
 
 )

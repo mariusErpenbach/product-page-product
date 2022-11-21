@@ -1,6 +1,49 @@
 #introduction{
-    background-color:#2C2C2C;
-    color:rgb(185, 167, 167);
-    text-align: center;
-    display:flex;
+    
+            position: relative;
+            color:white;
+           
+            border-style:solid;
+            width:fit-content;
+           
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+    img{
+     
+    }
+    h1{
+        position: absolute;
+        font-size:4em;
+            top:3%;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            border-style:solid;
+            text-align:center;
+    }
+    #motivation-lines{
+        position: absolute;
+        margin: 0 auto;
+        top:16%;
+        transform:rotate(-1.5deg);
+         left:0;
+         right:0;
+        display:flex;
+        text-align:center;
+        border-style:solid;
+       
+        p{
+            font-size:1.6em;
+            width:20%;
+        }
+    }
+    #continueLine{
+        color:white;
+        position:absolute;
+        bottom:0;
+        right:20%;
+        font-size:4em;
+    }
+  
 }
